@@ -1,0 +1,205 @@
+.justify-content-center {
+    justify-content: center !important;
+}
+
+section.separador1 {
+  /*background-size: cover;
+  position: relative;
+  min-height: 400px;
+  padding: 40px;
+  z-index: 1;
+  color: #fff;*/
+  background-color: #04091e;
+  /*background: rgba(0, 0, 0, 38%);*/
+  background: url(../image/separador1.jpg) center;
+}
+
+section.separador1 h2{
+  color:#fff;
+
+}
+
+
+/*SERVICIOS*/
+section.fiber{
+  /*background: #fff;*/
+  /*position: relative;*/
+}
+section.fiber:before {
+  content: '';
+  /*display: block;
+  background-position: center center;*/
+  background: url(images/service/fibra.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  max-width: 300px;
+  height: 250px;
+  width: 30vw;
+  /*bottom: -150px;*/
+  top: -35px;
+  right : -9vw;
+}
+
+section.gps:before {
+  content: '';
+  background: url(images/service/gps.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  max-width: 300px;
+  height: 250px;
+  width: 30vw;
+  top: -60px;
+  left: -6vw;
+}
+
+section.satelital {
+  /*background: #fff;*/
+  /*position: relative;*/
+}
+
+section.satelital:before {
+  content: '';
+  /*display: block;
+  background-position: center center;*/
+  background: url(images/service/satelite.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  max-width: 200px;
+  height: 180px;
+  width: 25vw;
+  top: -90px;
+  right: -10vw;
+}
+section.radiotv:before {
+  content: '';
+  /*display: block;
+  background-position: center center;*/
+  background: url(images/service/radiotv.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  max-width: 200px;
+  height: 250px;
+  width: 30vw;
+  top: -80px;
+  right: -3vw;
+}
+section.otroserv:before {
+  content: '';
+  /*display: block;
+  background-position: center center;*/
+  background: url(images/service/otros.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  /*max-width: 300px;*/
+  height: 150px;
+  width: 20vw;
+  top: -70px;
+  left: -8vw;
+}
+section.inalambrico:before {
+  content: '';
+  background: url(images/service/ubnt.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  max-width: 170px;
+  height: 230px;
+  width: 30vw;
+  top: -90px;
+  left: -8vw;
+}
+ 
+/* HOME - GALLERY */
+.contenedor{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+
+section.app .contenedor {
+  color: #fff;
+  padding: 40px 20px;
+  /*background: #a22e2e;*/
+  background: #81ab4a;
+}
+section.app .contenedor h5 {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #fff;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+section.app .contenedor ul {
+  margin: 20px 0 0;
+}
+section.app .contenedor b {
+  font-size: 1.1em;
+  /*text-transform: uppercase;*/
+}
+
+section{
+	margin-bottom: 70px;
+}
+section h1{
+	color: #000;
+	margin-bottom: 25px;
+}
+.serv-img{
+  max-width: 400px;
+}
+
+.text-h3{
+  font-size: 30px !important;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+
+/* sin usar*/
+.item:hover h4 {
+    color: #67bc00;
+    /*font-weight: bold;
+    font-size: 20px;*/
+}
+.text-white{
+  color: #fff;
+}
+.text-black{
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.unordered-list li{
+  position:relative;
+  margin-left: 20px;
+  padding-left: 13px;
+  line-height:1.82em !important
+}
+.unordered-list li:before{
+  content:"";
+  position:absolute;
+  width:14px;
+  height:14px;
+  border:3px solid #67bc00;
+  background:#fff;
+  /*top:4px;
+  left:0;*/
+  top: 10px;
+  left: -22px;
+  border-radius:50%
+}
+
+
+.tittle-two{
+    display: inline-block;
+    border-bottom: 3px solid #3365A3;
+    padding-bottom: 5px;
+}
+.img-responsive{
+	  display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.lead {
+    margin-bottom: 23px;
+    line-height: 1.9em;
+    font-size: 17px;
+    color: #777;
+}
